@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    font-family: roboto;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    src: url(roboto/Roboto-Regular.ttf);
+    font-family: roboto;
+}
+.website{
+    background-color: #dfdfdf;
+    width: 1500px;
+    height: 850px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+.leftpage{
+    background-color: #1F212D;
+    height: 795px;
+    width: 400px;
+    
+    float: left;    
+}
+.rightpage{
+    height: 795px;
+    width: 1100px;
+    float: left;
+    
+
+
+}
+.footer{
+    position: relative;
+    top: 795px;
+    height: 53px;
+    background-color: #2F3243;
+    width: 1500px;
+}
+.lefthead{
+    color: white;
+    height: 65px;
+    background-color: #304FFF;
+}
+.lefthead h1{
+    display: inline-block;
+    line-height: 65px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.lefthead i{
+    margin-left: 15px;
+    font-size: 24px;
+   
+}
+.profile{
+   
+    height: 130px;
+    color: white;
+}
+.profile .img{
+    height: 130px;
+    float: left;
+    height: 65px;
+    margin-left: 15px;
+    width: 65px;
+    border-radius: 50%;
+    background-image: url(baby\ profile.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 32.5px;
+}
+.profile .name{
+    margin-top: 25px;
+    float: left;
+    margin-left:10px;
+    width: 305px;
+    height: 130px;
+
+}
+.profile .name a{
+    color: rgb(157, 157, 157);
+}
+.buttons button:hover{
+    background-color: #35384b;
+
+}
+.buttons button:hover i{
+    color: blue;
+}
+.buttons button{
+    
+    border: 1px solid gray;
+    outline: none;
+    color: white;
+    padding-left: 30px;
+    text-align: left;
+    margin-bottom: -5px;
+   
+   
+    height: 55px;
+    background-color: #1F212D;
+    width: 400px;
+}
+.exit{
+    color: #fff;
+    margin-left: 30px;
+    position: relative;
+    top: 300px;
+}
+.exit a{
+    color: #fff;
+}
+
+
+.righthead{
+    height: 65px;
+    background-color: #fff;
+}
+.icon{
+
+    float: left;
+    
+    margin: 12.5px;
+    margin-left: 30px;
+    height: 40px;
+    width: 40px;
+    background-image: url(reseticon.png);
+    background-position: center center;
+
+}
+.search{
+    margin-top: 7.5px;
+    float: left;
+    
+    
+    
+    height: 50px;
+    width: 500px;
+}
+.search input{
+    padding: 15px;
+    outline: none;
+    height: 50px;
+    border-radius: 40px;
+    width: 500px;
+}
+.search input::placeholder{
+    
+    margin:  15px;
+}
+
+.righthead h3{
+    line-height: 60px;
+    margin-left: 30px;
+    float: left;
+}
+.righthead .img1{
+    float: left;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 7.5px;
+    background-image: url(baby\ profile.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.righthead i {
+    margin-left: 50px;
+    font-size: 24px;
+    line-height: 65px;
+}
+.info{
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: #fff;
+    
+    width: 1000px;
+    
+    height: 180px;
+}
+.info i{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.eyes{
+   
+    text-align: center;
+    float: left;
+    width: 240px;
+    height: 180px;
+}
+.pencil{
+    text-align: center;
+    float: left;
+    width: 240px;
+    height: 180px;
+}
+.mana{  
+    text-align: center;
+    float: left;
+    width: 240px;
+    height: 180px;
+}
+.clients{
+    text-align: center;
+    float: left;
+    width: 240px;
+    height: 180px;
+}
+
+.info2{
+    margin-left: 60px;
+    width: 1000px;
+    height: 240px;
+    
+}
+.box1{
+    border-radius: 5px;
+    margin-right: 25px;
+    background-color: #29BD8B;
+    float: left;
+    height: 240px;
+    width: 475px;
+    
+}
+.box1:nth-child(2){
+    background-color: #5B9EF9;
+}
+.box1 h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: #fff;
+}
+.box1 .hr1{
+    margin-left: 38.5px;
+    float: left;
+    border:2px solid white;
+    
+    background-color: white;
+    width: 250px;
+}
+.box1 .hr2{
+    float: left;
+    background-color: black;
+    border:2px solid black;
+    width: 150px;
+}
+ .divh3{
+     margin-left: 30px;
+     margin-top: 130px;
+     width: 300px;
+     color: #fff;
+     height: 30px;
+     
+ }
+.divh3 h3 span{
+    color: black;
+}
+.time{
+    
+    margin-bottom: 30px;
+    margin-right: 40px;
+    color: #fff;
+    float: left;
+    margin-left: 30px;
+}
+.time h4{
+    
+    text-align: left;
+    margin-bottom: -20px;
+}
+.time h2{
+    text-align: left;
+}
+
+
+
+
+.lastposts{
+    padding-top: 5px;
+    padding-left: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: #fff;
+    height: 250px;
+    width: 1000px;
+    
+}
+.card{
+    
+    height: 100px;
+    width: 280px;
+    float: left;
+    border-radius: 5px;
+    margin: 10px;
+}
+.card h4{
+    text-shadow: 0 0 3px black;
+    margin-top: 60px;
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.card:nth-child(1){
+    background-image: url(card1kit.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.card:nth-child(2){
+    background-image: url(card2eda.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.card:nth-child(3){
+    background-image: url(card3swim.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.card:nth-child(4){
+    background-image: url(card4xatiko.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.card:nth-child(5){
+    background-image: url(card5moun.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.card:nth-child(6){
+    background-image: url(card6hamburger.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
